@@ -16,7 +16,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2) At child component will get this data using `ngOnChanges`
 3) At child component will render this data in table using `plain-html-table`
 4) In table we will have 4 columns `name, age, city, block`
-5) Under `block` column, there will be a button (label = block) per row. after hit this button specipic grid row data will print under parent component (below aplain-html-table) 
+5) Under `block` column, there will be a button (label = block) per row. after hit this button specipic row data will print under parent component (below a plain-html-table) 
 
 ## Task 2
 
