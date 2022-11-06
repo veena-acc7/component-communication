@@ -22,3 +22,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 1) We are already passing the data from parent to child
 3) After hit `block` button we have to also show that row data under `block-vendor` by using `subject/behaviorsubject`
+
+## Reference 
+
+[Icon Bootstrap](https://icons.getbootstrap.com/)
+
+[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
