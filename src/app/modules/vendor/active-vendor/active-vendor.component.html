@@ -1,1 +1,17 @@
-<p>active vendor</p>
+
+<table style="width: 100%;">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+      <th>Block</th>
+    </tr>
+    <tr *ngFor="let detail of details;let i=index">
+      <!-- <input type="text" > -->
+      <td>{{detail.name}}</td>
+      <td>{{detail.age}}</td>
+      <td>{{detail.city}}</td>
+      <td><button type="submit" (click)="onClick(detail)" >Block</button></td>
+    </tr>
+    
+  </table>

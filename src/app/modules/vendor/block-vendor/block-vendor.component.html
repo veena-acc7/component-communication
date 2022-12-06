@@ -1,1 +1,16 @@
-<p>block-vendor works!</p>
+<table style="width: 100%;">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+      
+    </tr>
+    <tr *ngFor="let detail of block;let i=index">
+      <!-- <input type="text" > -->
+      <td>{{detail.name}}</td>
+      <td>{{detail.age}}</td>
+      <td>{{detail.city}}</td>
+      
+    </tr>
+    
+  </table>
